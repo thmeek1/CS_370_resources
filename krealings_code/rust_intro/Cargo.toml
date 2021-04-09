@@ -1,0 +1,154 @@
+[package]
+name = "beginning_rust"
+version = "0.1.0"
+authors = [""]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+text_io = "0.1.8"
+
+[[example]]
+name = "array"
+path = "examples/basic/array.rs"
+
+[[example]]
+name = "vector"
+path = "examples/basic/vector.rs"
+
+[[example]]
+name = "vector2"
+path = "examples/basic/vector2.rs"
+
+[[example]]
+name = "tuple"
+path = "examples/basic/tuple.rs"
+
+[[example]]
+name = "slice"
+path = "examples/basic/slice.rs"
+
+[[example]]
+name = "slice2"
+path = "examples/basic/slice2.rs"
+
+[[example]]
+name = "variables"
+path = "examples/vars/variables.rs"
+
+[[example]]
+name = "closure"
+path = "examples/close/closure.rs"
+
+[[example]]
+name = "close2"
+path = "examples/close/close2.rs"
+
+[[example]]
+name = "close3"
+path = "examples/close/close3.rs"
+
+[[example]]
+name = "close4"
+path = "examples/close/close4.rs"
+
+[[example]]
+name = "if_else"
+path = "examples/control_flow/if_else.rs"
+
+[[example]]
+name = "if2"
+path = "examples/control_flow/if_let_and_while.rs"
+
+[[example]]
+name = "infinite"
+path = "examples/control_flow/infinite.rs"
+
+[[example]]
+name = "while"
+path = "examples/control_flow/while.rs"
+
+[[example]]
+name = "for"
+path = "examples/control_flow/for.rs"
+
+[[example]]
+name = "match"
+path = "examples/control_flow/match.rs"
+
+[[example]]
+name = "enum"
+path = "examples/custom/enum.rs"
+
+[[example]]
+name = "enum2"
+path = "examples/custom/enum2.rs"
+
+[[example]]
+name = "enum3"
+path = "examples/custom/enum3.rs"
+
+[[example]]
+name = "object"
+path = "examples/custom/object.rs"
+
+[[example]]
+name = "struct"
+path = "examples/custom/struct.rs"
+
+[[example]]
+name = "doc"
+path = "examples/docs/document.rs"
+
+[[example]]
+name = "errors"
+path = "examples/errors/error.rs"
+
+[[example]]
+name = "error2"
+path = "examples/errors/error2.rs"
+
+[[example]]
+name = "function"
+path = "examples/functions/func.rs"
+
+[[example]]
+name = "generic"
+path = "examples/generic/gen.rs"
+
+[[example]]
+name = "lifetime"
+path = "examples/lifetime/life.rs"
+
+[[example]]
+name = "borrow"
+path = "examples/lifetime/borrow.rs"
+
+[[example]]
+name = "print"
+path = "examples/print/printing.rs"
+
+[[example]]
+name = "ref"
+path = "examples/references/ref.rs"
+
+[[example]]
+name = "strings"
+path = "examples/strings/strings.rs"
+
+[[example]]
+name = "trait"
+path = "examples/traits/traits.rs"
+
+[[example]]
+name = "trait2"
+path = "examples/traits/trait2.rs"
+
+[[example]]
+name = "trait3"
+path = "examples/traits/trait3.rs"
+
+[[example]]
+name = "mem"
+path = "examples/basic/mem.rs"

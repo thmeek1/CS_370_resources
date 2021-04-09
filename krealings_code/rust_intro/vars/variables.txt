@@ -1,0 +1,36 @@
+/*
+ * Primitive Types:
+ *
+ *      Boolean
+ *      bool
+ *
+ *      Character
+ *      char
+ *
+ *      Primitive string slice
+ *      str
+ *
+ *      Floats
+ *      f32
+ *      f64
+ *
+ *      Integers
+ *      i128
+ *      i16
+ *      i32
+ *      i64
+ *      i8
+ *      isize pointer-sized signed integer type
+ *
+ *      Unsigned (nonnegative) integers
+ *      u128
+ *      u16
+ *      u32
+ *      u64
+ *      u8
+ *      usize pointer-sized unsigned integer type
+ *
+ *      Empty tuple (similar to None/Null)
+ *      ()
+ */
+

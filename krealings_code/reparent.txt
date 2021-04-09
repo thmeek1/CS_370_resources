@@ -1,0 +1,33 @@
+===================
+Running on ubuntu
+===================
+
+Parent 6756 --> my parent is 3470 (bash)
+my child is 6815
+
+I am a child process with id Pid(6815) -> parent(Pid(6756))
+parent 6756 --> my parent is 3470 (bash)
+
+*****************************************************************************
+After killing parent child is reparented to a subreaper (systemd: pid 2510)
+*****************************************************************************
+
+I am a child process with id Pid(6815) -> parent(Pid(2510))
+
+
+===================
+Runnng on agora:
+====================
+
+Parent 1737 --> my parent is 1353 (bash)
+
+my child is 1748
+I am a child process with id Pid(1748) -> parent(Pid(1737))
+
+*****************************************************************************
+After killing parent child is reparented to init (pid 1)
+*****************************************************************************
+
+I am a child process with id Pid(1748) -> parent(Pid(1))
+
+

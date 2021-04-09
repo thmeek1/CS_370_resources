@@ -1,0 +1,13 @@
+unwrap 
+
+If an 'Option' type has Some value or a 'Result' type has a Ok value, the value inside them passes to the next step.
+
+If the 'Option' type has None value or the 'Result' type has Err value, program panics; 
+    If Err, panics with the error messaage
+
+expect()
+    Similar to unwrap() but can set a custom message for the panics.
+
+    pizzachu().expect("There was an Pokemon error");
+
+
