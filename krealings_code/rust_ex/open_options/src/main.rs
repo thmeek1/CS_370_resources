@@ -24,14 +24,14 @@ fn main() {
         .open("writeable.txt")
         .expect("Failed to create OpenOptions");
 
-    // Opens the file for writing, overwriting all contents if it exsts
+    // Opens the file for writing, overwriting all contents if it exsts (does not create)
     let _truncated = OpenOptions::new()
         .write(true) // Needed to set the file's length to 0
         .truncate(true)
         .open("truncated.txt")
         .expect("Failed to create OpenOptions");
 
-    // Opens the file for writing, appending all new contents to the end
+    // Opens the file for writing, appending all new contents to the end (does not create)
     let _appended = OpenOptions::new()
         .append(true)
         .open("appended.txt")
